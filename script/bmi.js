@@ -5,7 +5,7 @@ let refresh = document.getElementById('clear')
 let result = document.getElementById('answer')
 
 calc.addEventListener('click', ()=>{
-    calc.innerText =parseFloat(eval(`${weight.value}/${height.value}*${height.value}`)).toFixed(2)
+    calc.innerText =parseFloat(eval(`${weight.value}/(${height.value}*${height.value})`)).toFixed(2)
 })
 
 
